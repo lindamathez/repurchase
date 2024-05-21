@@ -1,1 +1,3 @@
-# repurchase
+# Repurchase Prediction Notebook Summary
+
+The notebook conducts data cleaning and feature engineering on four CSV files: `audiograms.csv`, `calls.csv`, `contacts.csv`, and `sale.csv`. Following this, it applies two machine learning models, XGBoost and Logistic Regression, for predicting customer repurchases within a specific timeframe. The process involves cross-validation, hyperparameter optimization using Hyperopt, and evaluation metrics like ROC-AUC. Additionally, it visualizes feature importance using SHAP values for XGBoost and coefficient magnitudes for Logistic Regression, providing insights into predictive factors.
